@@ -323,7 +323,7 @@ int encryption()
 	return 0;
 }
 
-int decryption()
+int decryption() //декодирование
 {
 	int number = add_rkey(1, Nr);
 
