@@ -305,7 +305,7 @@ int add_rkey(int inverse, int number)
 	else return number - 1;
 }
 
-int encryption()
+int encryption() //кодирование
 {
 	int number = add_rkey(0, 0);
 
